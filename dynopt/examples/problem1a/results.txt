@@ -1,0 +1,96 @@
+problem1a
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+    0      34    1.000000e+00    3.553e-15    1.392e-01
+    1      68    8.965313e-01    8.340e-03    1.382e-01    3.170e-01
+    2     106    8.569167e-01    9.680e-03    1.162e-01    1.552e-01
+    3     144    8.253261e-01    1.063e-02    9.947e-02    1.442e-01
+    4     182    8.042069e-01    1.073e-02    8.636e-02    1.160e-01
+    5     219    7.756662e-01    1.174e-02    7.397e-02    1.893e-01
+    6     254    7.641338e-01    4.212e-03    7.528e-02    4.746e-01
+    7     288    7.617679e-01    8.420e-05    8.153e-03    2.399e-02
+    8     325    7.617256e-01    7.541e-05    7.222e-03    3.926e-03
+    9     362    7.616822e-01    6.805e-05    6.384e-03    4.364e-03
+   10     399    7.616501e-01    6.113e-05    5.620e-03    3.894e-03
+   11     436    7.616267e-01    5.472e-05    4.929e-03    3.465e-03
+   12     473    7.616099e-01    4.884e-05    4.310e-03    3.083e-03
+   13     510    7.615982e-01    4.349e-05    3.758e-03    2.746e-03
+   14     547    7.615902e-01    3.864e-05    3.268e-03    2.453e-03
+   15     583    7.615796e-01    3.080e-05    2.397e-03    4.399e-03
+   16     619    7.615770e-01    2.416e-05    1.733e-03    3.417e-03
+   17     655    7.615779e-01    1.875e-05    1.341e-03    2.698e-03
+   18     690    7.615842e-01    1.028e-05    6.854e-04    3.402e-03
+   19     725    7.615896e-01    5.375e-06    4.005e-04    1.805e-03
+   20     760    7.615930e-01    2.747e-06    3.003e-04    9.830e-04
+   21     795    7.615949e-01    1.382e-06    1.702e-04    3.529e-04
+   22     830    7.615958e-01    6.940e-07    1.051e-04    2.162e-04
+   23     864    7.615968e-01    9.441e-09    2.251e-05    1.780e-04
+   24     899    7.615968e-01    4.859e-09    2.005e-05    3.413e-05
+   25     934    7.615968e-01    2.440e-09    1.266e-05    3.754e-05
+   26     969    7.615968e-01    1.224e-09    6.939e-06    2.515e-05
+   27    1004    7.615968e-01    6.340e-10    7.468e-06    1.954e-05
+   28    1039    7.615968e-01    3.781e-10    8.786e-06    2.254e-05
+   29    1076    7.615968e-01    3.443e-10    9.584e-06    9.150e-06
+   30    1124    7.615968e-01    2.869e-10    5.307e-06    2.538e-05
+
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+   31    1159    7.615968e-01    2.869e-10    5.303e-06    2.166e-08
+
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the selected value of the step size tolerance and constraints are 
+satisfied to within the selected value of the constraint tolerance.
+
+
+
+
+optimout = 
+
+        nlpx: [33x1 double]
+        fval: 0.7616
+    exitflag: 2
+      output: [1x1 struct]
+      lambda: [1x1 struct]
+        grad: [33x1 double]
+     hessian: [33x33 double]
+           t: [12x1 double]
+           u: [12x1 double]
+           p: []
+
+
+optimparam = 
+
+     optvar: 3
+    objtype: []
+      ncolx: 3
+      ncolu: 2
+         li: [3x1 double]
+         tf: 1
+         ui: [0 0 0]
+        par: []
+        bdu: []
+        bdx: []
+        bdp: []
+     objfun: @objfun
+     confun: []
+    process: @process
+    options: [1x1 struct]
+        bdt: [1.0000e-03 1]
+         ni: 3
+         nu: 1
+         nx: 2
+         np: 0
+        tau: [5x1 double]
+        lfx: [5x4 double]
+       dlfx: [5x4 double]
+        lfu: [5x2 double]
+          M: [2x2 double]
+     dt_col: 3
+     du_col: 6
+     dx_col: 24
+     dp_col: 0
+
+graph
+diary off

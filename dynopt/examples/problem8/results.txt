@@ -1,0 +1,65 @@
+problem8
+                                                          Norm of First-order
+ Iter F-count            f(x) Feasibility  Steplength        step  optimality
+    0       1    2.798801e-06   2.884e-03                           5.233e-03
+    1       2    2.508476e-06   8.549e-15   1.000e+00   4.203e-04   1.202e-03
+    2       3    2.493140e-06   6.738e-15   1.000e+00   3.687e-04   9.887e-05
+    3      10    2.493085e-06   2.331e-15   1.176e-01   4.313e-05   8.744e-05
+    4      30    2.493085e-06   2.331e-15   7.979e-04   2.642e-07   8.744e-05
+
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the selected value of the step size tolerance and constraints are 
+satisfied to within the selected value of the constraint tolerance.
+
+
+
+
+optimout = 
+
+        nlpx: [62x1 double]
+        fval: 2.4931e-06
+    exitflag: 2
+      output: [1x1 struct]
+      lambda: [1x1 struct]
+        grad: [62x1 double]
+     hessian: [62x62 double]
+           t: []
+           u: []
+           p: [2x1 double]
+
+
+optimparam = 
+
+     optvar: 4
+    objtype: [1x1 struct]
+      ncolx: 4
+      ncolu: []
+         li: [6x1 double]
+         tf: []
+         ui: []
+        par: [2x1 double]
+        bdu: []
+        bdx: []
+        bdp: [2x2 double]
+     objfun: @objfun
+     confun: []
+    process: @process
+    options: [1x1 struct]
+        bdt: []
+         ni: 6
+         nu: 0
+         nx: 2
+         np: 2
+        tau: [6x1 double]
+        lfx: [6x5 double]
+       dlfx: [6x5 double]
+        lfu: []
+          M: [2x2 double]
+     dt_col: 0
+     du_col: 0
+     dx_col: 60
+     dp_col: 2
+
+diary off
